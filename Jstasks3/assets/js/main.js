@@ -1,4 +1,4 @@
-let array = [2, 29, 345, 76, 4, 67];
+let array = [2, 29, 345, 76, 4, 67,8];
 
 // 1st Task
 
@@ -79,7 +79,7 @@ let array = [2, 29, 345, 76, 4, 67];
 // let count=0;
 
 // for(i=0; i<array.length;i++){
-//     if (i%2!=0) {
+//     if (array[i]%2!=0) {
 //         count++;
 //     }
 // }
@@ -87,18 +87,18 @@ let array = [2, 29, 345, 76, 4, 67];
 
 //8th Task
 
-// let temp;
-// let firstPart = 0;
-// let secondPart = (array.length) / 2;
+let temp;
+let firstPart = 0;
+let secondPart = (array.length / 2).toFixed(0);
 
-// while (secondPart<array.length) {
-//     temp=array[firstPart];
-//     array[firstPart]=array[secondPart];
-//     array[secondPart]=temp;
-//     firstPart++;
-//     secondPart++;
-// }
-// console.log(array);
+while (secondPart<array.length) {
+    temp=array[firstPart];
+    array[firstPart]=array[secondPart];
+    array[secondPart]=temp;
+    firstPart++;
+    secondPart++;
+}
+console.log(array);
 
 //9th Task
 
