@@ -87,18 +87,52 @@ let array = [2, 29, 345, 76, 4, 67,8];
 
 //8th Task
 
-let temp;
-let firstPart = 0;
-let secondPart = (array.length / 2).toFixed(0);
+// let temp;
+// let firstPart = 0;
+// let secondPart = (array.length / 2).toFixed(0);
 
-while (secondPart<array.length) {
-    temp=array[firstPart];
-    array[firstPart]=array[secondPart];
-    array[secondPart]=temp;
-    firstPart++;
-    secondPart++;
-}
-console.log(array);
+// while (secondPart<array.length) {
+//     temp=array[firstPart];
+//     array[firstPart]=array[secondPart];
+//     array[secondPart]=temp;
+//     firstPart++;
+//     secondPart++;
+// }
+// console.log(array);
 
 //9th Task
 
+// function selectionSort(array) {
+//     for (let i = 0; i < array.length; i++) {
+//         let min=i;
+
+//         for (let j =i+1; j < array.length; j++) {
+//             if (array[j]<array[min]) {
+//                 min=j;
+//             }
+           
+//         }
+//         if (min !== i) {
+//             [array[i], array[min]] = [array[min], array[i]]
+//         }
+        
+//     }
+//     return array;
+// }
+// console.log(selectionSort(arr));
+
+//10th task
+// function bubbleSort(array) {
+//     for (let i = 0; i < array.length; i++) {
+//         for (let j = 0; j < array.length; j++) {
+//             if (array[j]<array[j+1]) {
+//                 let temp;
+//                 temp=array[j];
+//                 array[j]=array[j+1];
+//                 array[j+1]=temp;
+//             }
+//         }
+//     }
+//     return array;
+// }
+// console.log(bubbleSort(arr));
