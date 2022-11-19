@@ -119,7 +119,7 @@ let array = [2, 29, 345, 76, 4, 67,8];
 //     }
 //     return array;
 // }
-// console.log(selectionSort(arr));
+// console.log(selectionSort(array));
 
 //10th task
 // function bubbleSort(array) {
@@ -135,4 +135,4 @@ let array = [2, 29, 345, 76, 4, 67,8];
 //     }
 //     return array;
 // }
-// console.log(bubbleSort(arr));
+// console.log(bubbleSort(array));
